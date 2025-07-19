@@ -1,0 +1,39 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.packages
+.buildlog/
+.flutter-plugins-dependencies
+
+# Build outputs
+build/
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDEs (IntelliJ, Android Studio)
+.idea/
+
+# Android Studio / IntelliJ project files
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.log
+*.lock
+
+# Generated files
+pubspec.lock
+
+# macOS
+.DS_Store
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android
+android/.gradle/
+android/.idea/
+android/build/
