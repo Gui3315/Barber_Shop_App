@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'booking_storage.dart';
-import 'login_page.dart'; // Import para logout
+import 'login_page.dart';
 import 'background_container.dart';
 
-// Preços fixos para os serviços (ajuste conforme seus valores reais)
+// Preços dos serviços
 const Map<String, double> servicePrices = {
   'Cabelo': 30.0,
   'Bigode': 10.0,
@@ -49,7 +49,7 @@ class _OwnerHomePageState extends State<OwnerHomePage> {
     final services = booking.services.join(', ');
     final totalPrice = _calculateTotal(booking.services);
     return ListTile(
-      title: Text(booking.name), // mostra o nome da pessoa
+      title: Text(booking.name),
       subtitle: Text(
         'Data: ${booking.date} - Hora: ${booking.hour}\n'
         'Serviços: $services\n'

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart'; // Para kIsWeb
-import 'package:sqflite_common_ffi/sqflite_ffi.dart'; // Para sqflite ffi no desktop
-import 'login_page.dart'; // Novo login_page.dart direto na pasta lib
+import 'package:flutter/foundation.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'login_page.dart';
 import 'admin_setup.dart';
 
 void main() async {
@@ -12,7 +12,7 @@ void main() async {
     databaseFactory = databaseFactoryFfi;
   }
 
-  await createAdminUser(); // <- Agora depois da inicialização do banco
+  await createAdminUser();
 
   runApp(const SalaoApp());
 }
@@ -27,7 +27,7 @@ class SalaoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: Colors.transparent, // para fundo imagem
+        scaffoldBackgroundColor: Colors.transparent,
         primaryColor: Colors.amber[700],
         colorScheme: ColorScheme.dark(
           primary: Colors.amber,

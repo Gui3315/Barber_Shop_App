@@ -135,7 +135,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
               ),
             ),
 
-            // Conteúdo com scroll e padding para ficar abaixo do logo
+            // Conteúdo scrollável
             Padding(
               padding: EdgeInsets.only(
                 top: logoSize + logoTopOffset + 24,

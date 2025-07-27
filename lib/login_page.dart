@@ -18,7 +18,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  double fontSize = 15; // variável
+  double fontSize = 15;
 
   Future<void> _login() async {
     final email = _emailController.text.trim();
@@ -46,7 +46,6 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     if (user.userType == 'cliente') {
-      // Alteração: vai para WelcomePage ao invés de GenderSelectionPage
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -91,8 +90,8 @@ class _LoginPageState extends State<LoginPage> {
               ElevatedButton(
                 onPressed: _login,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFF4A300), // Amarelo queimado
-                  foregroundColor: Colors.black, // Texto escuro para contraste
+                  backgroundColor: const Color(0xFFF4A300),
+                  foregroundColor: Colors.black,
                 ),
                 child: const Text('Entrar'),
               ),

@@ -30,7 +30,7 @@ class _ScheduleFemalePageState extends State<ScheduleFemalePage> {
     'Pedicure': false,
   };
 
-  // Fontes e cores personalizáveis
+  // Configurações de fonte e cor
   late double titleFontSize;
   late double serviceFontSize;
   late double totalFontSize;
@@ -39,7 +39,7 @@ class _ScheduleFemalePageState extends State<ScheduleFemalePage> {
   late Color serviceColor;
   late Color totalColor;
 
-  // Logo config
+  // Configurações do logo
   late double logoSize;
   late double logoTopOffset;
 
@@ -51,7 +51,7 @@ class _ScheduleFemalePageState extends State<ScheduleFemalePage> {
   void initState() {
     super.initState();
 
-    // Tamanhos e cores editáveis
+    // Configurações de tamanho e cor
     titleFontSize = 30;
     serviceFontSize = 20;
     totalFontSize = 20;
@@ -60,9 +60,9 @@ class _ScheduleFemalePageState extends State<ScheduleFemalePage> {
     serviceColor = Colors.white;
     totalColor = Colors.white;
 
-    // Logo editável
+    // Configurações do logo
     logoSize = 150;
-    logoTopOffset = 16; // Valor para evitar erro
+    logoTopOffset = 16;
   }
 
   double get _totalPrice {
@@ -258,7 +258,7 @@ class _ScheduleFemalePageState extends State<ScheduleFemalePage> {
               ),
             ),
 
-            // Conteúdo scrollável com padding para ficar abaixo do logo
+            // Conteúdo scrollável
             Padding(
               padding: EdgeInsets.only(
                 top: logoSize + logoTopOffset + 16,

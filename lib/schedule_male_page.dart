@@ -30,7 +30,7 @@ class _ScheduleMalePageState extends State<ScheduleMalePage> {
     'Barba': false,
   };
 
-  // Fontes e cores personalizáveis
+  // Configurações de fonte e cor
   late double titleFontSize;
   late double serviceFontSize;
   late double totalFontSize;
@@ -39,7 +39,7 @@ class _ScheduleMalePageState extends State<ScheduleMalePage> {
   late Color serviceColor;
   late Color totalColor;
 
-  // Logo config
+  // Configurações do logo
   late double logoSize;
   late double logoTopOffset;
 
@@ -274,7 +274,7 @@ class _ScheduleMalePageState extends State<ScheduleMalePage> {
               ),
             ),
 
-            // Conteúdo scrollável com padding para ficar abaixo do logo
+            // Conteúdo scrollável
             Padding(
               padding: EdgeInsets.only(
                 top: logoSize + logoTopOffset + 16,

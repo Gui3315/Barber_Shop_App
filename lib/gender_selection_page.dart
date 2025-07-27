@@ -95,7 +95,7 @@ class GenderSelectionPage extends StatelessWidget {
               ),
             ),
 
-            // Botão voltar no topo esquerdo - faz logout e vai para login page
+            // Botão voltar
             SafeArea(
               child: Align(
                 alignment: Alignment.topLeft,

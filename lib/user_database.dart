@@ -103,7 +103,7 @@ class UserDatabase {
     return user != null;
   }
 
-  // Método para atualizar a senha do usuário pelo email
+  // Atualiza a senha do usuário pelo email
   Future<int> updatePassword(String email, String newPasswordHash) async {
     final db = await database;
     return await db.update(

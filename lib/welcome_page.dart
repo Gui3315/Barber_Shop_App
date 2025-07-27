@@ -3,7 +3,7 @@ import 'background_container.dart';
 import 'login_page.dart';
 import 'gender_selection_page.dart';
 
-// Modelo simples para agendamento
+// Modelo de agendamento
 class Booking {
   final String date;
   final String hour;
@@ -78,7 +78,7 @@ class _WelcomePageState extends State<WelcomePage> {
   }
 
   void _remarcarBooking() {
-    // TODO: lógica para remarcar (redirecionar para tela de agendamento)
+    // TODO: implementar lógica de remarcação
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Funcionalidade de remarcar aqui')),
     );
@@ -228,7 +228,7 @@ class _WelcomePageState extends State<WelcomePage> {
 
                   const SizedBox(height: 32),
 
-                  // Botão novo agendamento
+                  // Botão de agendamento
                   Center(
                     child: ElevatedButton.icon(
                       icon: const Icon(Icons.add),

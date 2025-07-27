@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter/foundation.dart'; // para debugPrint
+import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
 
 class Booking {
-  final String name; // <-- NOVO CAMPO
+  final String name;
   final String date; // formato: 'dd/MM/yyyy'
   final String hour; // formato: 'HH:mm'
   final List<String> services;
