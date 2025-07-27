@@ -1,4 +1,4 @@
-# 🪒 Elias Barbearia - Sistema de Agendamento
+# Elias Barbearia - Sistema de Agendamento
 
 <div align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
@@ -8,19 +8,19 @@
   <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS">
 </div>
 
-## 📱 Sobre o Projeto
+## Sobre o Projeto
 
 Sistema completo de agendamento para barbearia desenvolvido em Flutter, oferecendo uma solução moderna e eficiente para gestão de horários e serviços. O aplicativo permite que clientes agendem serviços específicos por gênero, enquanto o proprietário gerencia todos os agendamentos através de um painel administrativo.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
-### 🔐 Sistema de Autenticação
+### Sistema de Autenticação
 - Login diferenciado para clientes e proprietários
 - Criptografia SHA-256 para segurança de senhas
 - Recuperação de senha integrada
 - Registro de novos usuários
 
-### 📅 Agendamento Inteligente
+### Agendamento Inteligente
 - Seleção de profissional por especialização (masculino/feminino)
 - Escolha de serviços com preços dinâmicos
 - Calendário com restrição de dias úteis (segunda a sexta)
@@ -28,20 +28,20 @@ Sistema completo de agendamento para barbearia desenvolvido em Flutter, oferecen
 - Prevenção de conflitos de agendamento
 - Cálculo automático de valores
 
-### 👨‍💼 Painel Administrativo
+### Painel Administrativo
 - Visualização de todos os agendamentos
 - Informações detalhadas: cliente, data, horário, serviços e valores
 - Atualização em tempo real
 - Interface responsiva e intuitiva
 
-### 🎨 Interface Moderna
+### Interface Moderna
 - Design dark theme elegante
 - Logo personalizado da barbearia
 - Navegação fluida entre telas
 - Feedback visual com SnackBars
 - QR Code simulado para confirmação
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Flutter/Dart** - Framework cross-platform
 - **SQLite** - Banco de dados local
@@ -49,14 +49,14 @@ Sistema completo de agendamento para barbearia desenvolvido em Flutter, oferecen
 - **Intl** - Formatação de datas
 - **Path Provider** - Gerenciamento de diretórios
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Flutter SDK 3.8.1 ou superior
 - Dart SDK
 - Android Studio / VS Code
 - Emulador Android ou dispositivo físico
 
-## 🚀 Como Executar
+## Como Executar
 
 1. **Clone o repositório**
 ```bash
@@ -74,7 +74,7 @@ flutter pub get
 flutter run
 ```
 
-## 📱 Telas do Aplicativo
+## Telas do Aplicativo
 
 ### Tela de Login
 - Autenticação segura com validação de campos
@@ -97,7 +97,7 @@ flutter run
 - Informações completas de cada reserva
 - Botões de atualização e logout
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 ```
 lib/
@@ -115,7 +115,7 @@ lib/
 └── background_container.dart # Componente de fundo
 ```
 
-## 🔧 Configurações
+## Configurações
 
 ### Serviços e Preços
 - **Masculino**: Cabelo (R$ 30), Bigode (R$ 10), Barba (R$ 20)
@@ -140,7 +140,8 @@ lib/
 ### Painel do Proprietário
 ![Painel do Proprietário](screenshots/Owner%20page.jpeg)
 
-## 🤝 Contribuição
+
+## Contribuição
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -148,21 +149,21 @@ lib/
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Desenvolvedor
+## Desenvolvedor
 
 **Guilherme** - Desenvolvedor Flutter
 
 - GitHub: [@Gui3315](https://github.com/Gui3315)
-- LinkedIn: [Seu LinkedIn]
+- LinkedIn: [(https://www.linkedin.com/in/guilherme-fernandes-2321031a3/)]
 
-## 📞 Contato
+## Contato
 
-- Email: [seu-email@exemplo.com]
-- LinkedIn: [Seu LinkedIn]
+- Email: [guilherme_thegame@hotmail.com]
+- LinkedIn: [(https://www.linkedin.com/in/guilherme-fernandes-2321031a3/)]
 
 ---
 
