@@ -128,7 +128,17 @@ lib/
 
 ## 📸 Screenshots
 
-*[Adicione screenshots do seu aplicativo aqui]*
+### Tela de Login
+![Tela de Login](screenshots/Login%20page.jpeg)
+
+### Seleção de Profissional
+![Seleção de Profissional](screenshots/Select%20professional%20page.jpeg)
+
+### Agendamento de Serviços
+![Agendamento de Serviços](screenshots/Services%20page.jpeg)
+
+### Painel do Proprietário
+![Painel do Proprietário](screenshots/Owner%20page.jpeg)
 
 ## 🤝 Contribuição
 
